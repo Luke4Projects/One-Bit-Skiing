@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="canvasContainer">
+        <canvas id="canv" width="1280" height="720"></canvas>
+        <canvas id="canvas2d" width="1280" height="720"></canvas>
+    </div>
+
+    <script src="js/gl-matrix-min.js"></script>
+    <script src="js/input.js"></script>
+    <script src="js/render.js"></script>
+    <script src="js/camera.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/tree.js"></script>
+    <script src="js/floor.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+<style>
+
+#canvasContainer {
+    position: relative;
+}
+
+#canvas2d {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+body {
+    margin: 0;
+}
+
+</style>
